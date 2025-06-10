@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project11</title>
+    <style>
+        header {
+            height:50px;
+            width:50px;
+            color:purple;
+            background-color: aqua;
+            border:2px solid black;
+            top:50px;
+            left:50px;
+
+            animation-name: def;
+            animation-timing-function: ease-in;
+            animation-delay: 0.5s;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+        #bar {
+            height: 120px;
+            width:120px;
+            color:blue;
+            background-color: aliceblue;
+            border:3px solid black;
+            top:100px;
+            left:100px;
+            position: relative;
+
+            animation-name: abc;
+            animation-timing-function:ease-in-out ;
+            animation-duration: 2s;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes def {
+            0%{left:50px}
+            50%{left:100px}
+            100%{left:150px}
+        }
+        @keyframes abc {
+            0% {left:120px}
+            50% {left:200px}
+            100% {left:280px}
+        }
+    </style>
+</head>
+<body>
+    <header>heading</header>
+    <main><div id="bar">progress bar</div></main>
+</body>
+</html>
