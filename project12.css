@@ -1,0 +1,11 @@
+#first{
+    color:black;
+    background-color: greenyellow;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+}
+#second{
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 5px;
+}
